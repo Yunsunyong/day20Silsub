@@ -22,7 +22,9 @@ public class TestMyNote {
 			 case 1 : mn.fileSave(); break;
 			 case 2 : mn.fileOpen(); break;
 			 case 3 : mn.fileEdit(); break;
-			 case 4 : System.out.println("메인메뉴로 돌아갑니다."); return;
+			 case 4 : System.out.println("끝내기."); return;
+			 default : System.out.println("번호 선택이 잘못되었습니다.");
+			 			System.out.println("다시 선택하십시오.\n");
 			 }
 		}while(num != 4);
 	}
